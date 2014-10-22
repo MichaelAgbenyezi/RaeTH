@@ -1,0 +1,130 @@
+<html ng-app ="myRSS">
+<head>
+	<title></title>
+
+ <meta charset="utf-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+     <script src="js/gen_validatorv31.js"></script>
+      <script src="js/captcha_code_file.php"></script>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body ng-controller="myRSSController">
+
+    <div>
+     <header class="top" role="header">
+      <div class="innerheader">
+         <div class="container" class="text-muted">
+            <a href="#" class="navbar-brand pull-left">
+           <img src="images/mini-logo.jpg"/>
+            </a>
+            <button style="color:rgb(23,169,225);" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+            <nav class="navbar-collapse collapse" role="navigation"  style="float:left;">
+               <ul class="navbar-nav nav">
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+             <li>&nbsp;</li>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+         <ul class="navbar-nav nav">
+                  <li><a ui-sref="home">Home</a></li>
+                  <li><a ui-sref="about">About</a></li>
+                  <li><a ui-sref="services">Services</a></li>
+                  <li><a ui-sref="work">Our Work</a></li>
+                  <li><a ui-sref="contact">Contact Us</a></li>
+               </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </div> <!--innerheader div-->
+    </header>
+  </div>  <!--div before header ends-->
+      <!-- Site banner -->
+      <div class="banner">
+         <div class="container">
+            <h1>Data Management Solution</h1>
+         
+         </div> <!--banner class ends-->
+</div>
+<br/>
+<div ui-view style="width:50%; margin:0 auto;"></div> <!--dynamic page display-->
+
+<!--Greyed-out excerps-->
+    
+               <div class="to-tutorial">
+                  <div class="row">
+                     <br/>
+                     <div class="bottom1">
+                        <div class="container">
+                           <div class="col-md-4">
+                              <h1 class="text-muted"> About Us</h1>
+                              <p  class="text-muted">Raeth LLC is a data management and IT consulting company in Atlanta, Georgia.
+                                 This is a small business that caters to individual ...
+                              </p>
+                              <p><a ui-sref="about" class="btn btn-default">Learn More &raquo;</a></p>
+                           </div>
+                           <div class="col-md-4">
+                              <h1 class="text-muted"> Services</h1>
+                              <p class="text-muted">Our dedicated team of IT specialists has the know-how and experience
+                                 to make sure your infrastructure and end users get the support they deserve ... 
+                              </p>
+                              <p><a ui-sref="services" class="btn btn-default">Learn More &raquo;</a></p>
+                           </div>
+                           <div class="col-md-4">
+                              <h1 class="text-muted">Contact Us</h1>
+                              <p class="text-muted">We work with you to address network vulnerabilities, and provide actionable solutions, consulting, and ...</p>
+                              <p><a ui-sref="contact" class="btn btn-default">Learn More &raquo;</a></p>       
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+    <!--Greyed-out-excerpts end-->
+
+  <hr/>
+      <!-- Site footer -->
+      <div class="bottom" style="text-align:center">
+         <div class="container">
+            <div class="col-md-3">
+               <!--  <h3><span class="glyphicon glyphicon-star"></span> RaeTH Item Goes Here</h3>-->
+               <p><img src="images/mini-SAS_Logo.jpg"/></p>
+               <p><img src="images/mini-images.jpg"/></p>
+            </div>
+            <div class="col-md-3">
+               <!--<h3><span class="glyphicon glyphicon-star"></span> RaeTH Item Goes Here</h3>-->
+               <p><img src="images/mini-01_Opening-Image_full.JPG"/></p>
+               <p><img src="images/mini-ratnamtechnologies-web-designing.jpg"/></p>
+            </div>
+            <div class="col-md-3">
+               <!--<h3><span class="glyphicon glyphicon-star"></span> RaeTH Item Goes Here</h3>-->
+               <p><img src="images/mini-images 1.jpg"/></p>
+               <p><img src="images/mini-162612973_5e3eeacdbe.jpg"/></p>
+            </div>
+            <div class="col-md-3">
+               <!--<h3><span class="glyphicon glyphicon-star"></span> RaeTH Item Goes Here</h3>-->
+               <p><img src="images/mini-spss20_logo.gif"/></p>
+               <p><img src="images/Excel.jpg"/></p>
+            </div>
+         </div>
+      </div>
+    
+
+      <!-- Include jQuery and bootstrap JS plugins -->
+  
+    <p style="text-align:right; margin-right:50px; font-weight:bold; font-family:heveltica san-serif"><i>RaeTH 2014&reg;</></p>
+
+    <br/>
+</body>
+</html>
