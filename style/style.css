@@ -1,16 +1,18 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
 h1, h2, h3, h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'YanoneKaffeesatzRegular';
     font-weight: 300;
 }
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'YanoneKaffeesatzRegular';
 }
 html {
-    background-color: #474747;
+    background-color: #474747; 
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .top {
     background-color: rgb(35,31,32);   /*was#474747;  the whole top bar*/
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .navbar-brand {
     margin-left:8%;
@@ -21,13 +23,18 @@ html {
     background-color:rgb(35,31,32);    /*was #CCC, behind logo #474747;*/  
     color: #474747;
     text-decoration: none;
+     font-family: 'YanoneKaffeesatzRegular';
+     
 }
 .top .container {
     padding: 0;
+     font-family: 'YanoneKaffeesatzRegular';
+    
 }
 /*left 2nd banner*/
 .banner {
     background-color: rgb(23,169,225); /*rgb(35,31,32) Under Data Mgt Solution, was #009b9b*/
+     font-family: 'YanoneKaffeesatzRegular';
   
 }
 .banner .container {
@@ -35,11 +42,13 @@ html {
 	color:rgb(238,238,238);
     min-height: 60px;
     text-align:center;  
+   font-family: 'YanoneKaffeesatzRegular';
 }
 .banner .container p {
     font-size: 22px;
     padding-left: 5px;
     font-weight: 300;
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .middle {
     background-color:#fff;
@@ -49,6 +58,7 @@ html {
     background-color: #fff;
     min-height: 200px;
     padding-bottom: 20px;
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .navbar-nav li a {
     color: rgb(238,238,238);   /* WAS - #CCC */  
@@ -64,12 +74,15 @@ margin-top:20px;
 .bottom .container {
     background-color: #fff; /* WAS- 373737 */
     min-height: 200px;
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .bottom .container h3 {
     color: #999;
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .bottom .container p {
     color: #666;
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .navbar-toggle {
     color: #009b9b;
@@ -77,6 +90,7 @@ margin-top:20px;
     margin: 3px;
     padding: 2px 5px;
     line-height: 32px;
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .navbar-toggle:hover {
     background-color: #373737;
@@ -91,6 +105,7 @@ margin-top:20px;
 }
 .to-tutorial {
     text-align: center;
+     font-family: 'YanoneKaffeesatzRegular';
 }
 .col-xs-3{border:1px solid gray; margin:10px;}
 
@@ -107,7 +122,9 @@ height: 4px;
     display:none;
   }
   img{text-align:left; margin-left:-12px; }
- .container h1{font-size:25px; text-align:center;}
+ .container h1{font-size:25px; text-align:center;
+ font-family: 'YanoneKaffeesatzRegular';
+ }
 
 
 .top .navbar-brand{
@@ -123,13 +140,18 @@ height: 4px;
 	float:left;
 }
 .banner .container {
-    background-color:rgb(23,169,225)ed;/*Data Mgt was #009b9b*/
+    background-color:rgb(23,169,225);/*Data Mgt was #009b9b*/
     color:rgb(238,238,238);
     max-height: 40px;
     text-align:center; 
     margin-top:1px;
+     font-family: 'YanoneKaffeesatzRegular';
+
 
 }
+.banner .container {
+
+    }
 }/*MediaQueries end*/
 /*CAROUSEL CSS*/
 

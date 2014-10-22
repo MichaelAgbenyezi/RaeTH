@@ -12,7 +12,7 @@
 </head>
 <body>
    <div  class="cover">
-    		<h2 class="contact">Contact Us</h2>
+    		<h2 class="contact">Contact Us</h2><br/>
     		<form id="contactform"> 
     			<p class="contact"><label for="name">Name</label></p> 
     			<input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text"> 
@@ -24,11 +24,12 @@
     			<input id="subject" name="subject" placeholder="Subject" required="" tabindex="2" type="text"> 
     			 
     			<p class="contact"><label for="comment">Your Message</label></p> 
-    			<textarea name="comment" id="comment" tabindex="4"></textarea> <br>
+    			<textarea name="comment" id="comment" tabindex="4"></textarea> 
     			<!--<input class="btn btn-info"name="submit" id="submit" tabindex="5" value="Send Message" type="submit"> 	 -->
-    			<button class="btn btn-info">Send</button>
+    			<button class="btn btn-info btn-deafult" style="float:center">Send</button>
     		</form> 
-     </div>       
+     </div>    
+     <br/>   
     <!-- <div style="float:right; padding-right:30px;padding-bottom:30px;"><a href="http://www.freshdesignweb.com"> Back to homepage </a></div>-->
 </body>
 
@@ -66,14 +67,14 @@ html {
 .cover{
 	width:80%; margin:0 auto; padding-left:60px;
 }
-h2.contact { padding-left: 125px; font-size: 50px; color:rgb(23,169,225) ; height: 70px; background: url(images/contact.png) no-repeat -10px -10px;  font-family: 'YanoneKaffeesatzRegular';}
-p.contact { font-size: 18px; margin-bottom: 15px; line-height: 10px; font-family: 'BebasNeueRegular', Arial; color: #4b4b4b; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
+h2.contact { padding-left: 125px; font-size: 30px; color:rgb(23,169,225) ; height: 70px; background: url(images/contact.png) no-repeat -10px -10px;  font-family: 'YanoneKaffeesatzRegular';}
+p.contact { font-size: 18px; margin-bottom: 15px; line-height: 10px; font-family: 'YanoneKaffeesatzRegular'; Arial; color: #4b4b4b; }
 #contact { margin-bottom: 0px; }
 input[type="text"] { width: 90%; }
-textarea { width: 98%; height: 200px; }
+textarea { width:90%; height: 200px; }
 label { color: rgb(23,169,225); }
-input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 5px solid rgba(122, 192, 0, 0.15); padding: 10px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 24px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
-input:focus, textarea:focus { border: 5px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 2px solid #CCC; padding: 10px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+input:focus, textarea:focus { border: 2px solid Gray; background-color: rgba(255, 255, 255, 1); }
 
 input[type="submit"] { border: none; cursor: pointer; color: #fff; font-size: 24px; background-color: #7ac000; padding: 5px 36px 8px 36px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); border-bottom: 1px solid rgba(0, 0, 0, 0.4); border-top: 1px solid rgba(255, 255, 255, 0.6);
 	background: -webkit-gradient(
@@ -116,6 +117,8 @@ input[type="submit"]:active { top: 1px; }
 .cover{
 	width:98%; margin:0 auto; padding-left:10px;
 }
+h2.contact { padding-left: 25px; font-size: 20px; color:rgb(23,169,225) ; height: 40px; background: url(images/contact.png) no-repeat -10px -10px;  font-family: 'YanoneKaffeesatzRegular';}
+
 }/*MediaQueries end*/
 </style>
 
